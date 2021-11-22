@@ -1,3 +1,31 @@
-.App {
+body {
+  background-image: url(./background.png);
+  background-size: cover;
+  background-position: center;
+
+  color: black;
+  font-family: "Press Start 2P", cursive;
+  font-size: 1.5rem;
+}
+
+main {
   text-align: center;
+  display: grid;
+
+  text-align: center;
+  place-content: center;
+  min-height: 100vh;
+}
+
+section {
+  padding: 4rem;
+  border-radius: 1rem;
+  background-color: #fff5;
+  backdrop-filter: blur(8px);
+}
+
+#wallet-button {
+  position: fixed;
+  top: 3rem;
+  right: 3rem;
 }
